@@ -1,0 +1,6 @@
+
+library(volesti)
+
+P = GenRandHpoly(2, 50)
+v=volume(P)
+print(v)
