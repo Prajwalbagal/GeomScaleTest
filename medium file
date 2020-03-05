@@ -1,0 +1,6 @@
+library(cubature)
+I.1d <- function(x){exp**{-2 ||x|| **2}}
+
+c <- cubintegrate(f=I.1d,lower=-6,upper=6)
+
+print(c)
